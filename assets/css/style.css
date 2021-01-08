@@ -1,0 +1,834 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1210px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Bold.otf);
+	font-family: Montserrat-Bold;
+}
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+
+.header-section{
+	width: 100%;
+	padding: 0px 0px 200px;
+	background:url(../images/header-background.png) top left no-repeat;
+	background-size: cover;
+}
+
+.header-section .header{
+	width: 100%;
+	padding: 15px 0px;
+}
+
+.header-section .header .logo{
+	width: 30%;
+	float: left;
+
+}
+
+.header-section .header .main-menu{
+	width: 65%;
+	float: left;
+}
+.header-section .header .main-menu ul{
+	list-style: none;
+	text-align: right;
+}
+.header-section .header .main-menu ul li{
+	float: left;
+}
+.header-section .header .main-menu ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	color: #fff;
+	padding: 10px 20px;
+	font-family: Montserrat-Regular;
+	font-size: 17px;
+}
+
+.header-section .header .main-menu ul li:first-child a{
+	margin-left: 230px;
+}
+
+.header-section .header .main-menu ul li a:hover{
+	color: #2ebaee;
+	
+	background:url(../images/services-line.png) bottom left no-repeat;
+	background-size: contain;
+}
+
+
+.header-section .header .header-search{
+	width: 5%;
+	float: left;
+}
+
+.header-section .header .header-search i{
+	float: right;
+	color: #fff;
+	padding: 17px 0px;
+}
+
+/* =============banner============= */
+
+.header-section .banner{
+	width: 100%;
+	text-align: center;
+	padding: 185px 0 0;
+	
+}
+
+.banner h1{
+	font-size: 50px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-Bold;
+	margin-top: 10px;
+	margin-bottom: 20px;	
+
+}
+
+.header-section .banner span{
+	color: #2ebaee;
+}
+
+.header-section .banner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	font-family: Montserrat-Regular;
+	margin-bottom: 60px;	
+}
+.banner .banner-btn{
+	padding: 10px 35px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	background: #2ebaee;
+	border-radius: 20px;
+}
+
+.banner .banner-btn:hover{
+	border: 1px solid #2ebaee;
+	background: transparent;
+	color: #2ebaee;
+}
+ 
+/* =============================================
+			  End Heading Section                 
+================================================= */
+
+
+/* =============================================
+			  Start services Section                 
+================================================= */
+.searvice-title{
+	width: 100%;
+}
+
+.searvice-title .ser-title{
+	width: 100%;
+}
+
+.searvice-title  h3{
+	font-size: 25px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #242424;
+	font-family: Montserrat-bold;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;		
+}
+
+/* =========service-section======= */
+
+.service-section{
+	width: 100%;
+	padding: 0px;	
+	text-align: center;	
+	background: url(../images/services-bg.png) no-repeat;
+	background-size: cover;
+	
+}
+
+
+
+.service-section .service{
+	width: 100%;
+	
+}
+
+
+.service-section .services-top{
+	width: 80%;
+	float: left;
+	text-align: left;	
+	margin-left: 10%;
+	padding: ;
+	margin-bottom: 200px;
+	
+
+}
+
+.services-top .service-inner{
+	width: 25%;
+	float: left;
+	
+}
+
+.services-top .service-inner h6{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+	color: #242424;
+	font-family: Montserrat-bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.services-top .service-inner p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #878787;
+	font-family: Montserrat-Regular;
+	margin-bottom: 60px;
+}
+
+.service-section .services-top .services-section-line{
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.services-top .banner-btn{
+	padding: 10px 20px;
+	font-size: 10px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	background: #2ebaee;
+	border-radius: 20px;
+	margin-left: -50px;
+
+}
+
+.services-top .banner-btn:hover{
+	border: 1px solid #2ebaee;
+	background: transparent;
+	color: #2ebaee;
+}
+
+/* =======service-middle========= */
+
+
+.service .Service-middle{
+	width: 80%;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 0px;
+
+}
+
+.service .Service-middle h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #242424;
+	font-family: Montserrat-Regular;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.service .Service-middle p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #878787;
+	font-family: Montserrat-Regular;
+	margin-bottom: 20px;	
+}
+
+.service .Service-middle .banner-btn{
+	padding: 10px 20px;
+	font-size: 10px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	background: #2ebaee;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.service .Service-middle .banner-btn:hover{
+	border: 1px solid #2ebaee;
+	background: transparent;
+	color: #2ebaee;
+}
+
+/* =======service-bottom========= */
+
+.service .Service-bottom{
+	width: 80%;
+	text-align: left;
+	margin-left:61%;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	
+
+}
+
+.service .Service-bottom h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-Regular;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.service .Service-bottom p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #fff;
+	font-family: Montserrat-Regular;
+	margin-bottom: 20px;	
+}
+
+.service .Service-bottom .banner-btn{
+	padding: 10px 20px;
+	font-size: 10px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #2ebaee;
+	background: #fff;
+	border-radius: 20px;
+	
+}
+
+.service .Service-bottom .banner-btn:hover{
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+}
+
+/* =============================================
+			  End services Section                 
+================================================= */
+
+
+/* =============================================
+			  Start man Section                 
+================================================= */
+.man-section{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.man-section .man{
+	width: 100%;
+}
+
+.man-section .man .man-top{
+	width: 50%;
+	float: left;
+}
+.man-section .man .man-top img{
+	width: 100%;
+}
+
+
+/*  ============.man-bottom=======*/
+
+
+
+.man-section .man .man-bottom{
+	width: 50%;
+	float: left;
+}
+
+.man-bottom h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #242424;
+	font-family: Montserrat-Regular;
+	margin-top: 20%;
+	margin-bottom: 20px;
+	text-align: left;
+	margin-left: 7%;
+}
+
+.man-bottom p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #878787;
+	font-family: Montserrat-Regular;
+	margin-bottom: 20px;
+	margin-left: 7%;	
+}
+
+.man-bottom .banner-btn{
+	padding: 10px 20px;
+	font-size: 10px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	background: #2ebaee;
+	border-radius: 20px;
+	margin-left: 7%;
+	
+}
+
+.man-bottom .banner-btn:hover{
+	border: 1px solid #2ebaee;
+	background: transparent;
+	color: #2ebaee;
+}
+/* =============================================
+			  End man Section                 
+================================================= */
+
+
+/* =============================================
+			  Start lorem Section                 
+================================================= */
+
+.lorem-section{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.lorem-section .lorem-inner{
+	width: 100%;
+}
+
+.lorem-section .lorem-inner .lorem-1{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../images/lorem-bg-1.png) no-repeat;
+	background-size: cover;
+}
+
+
+
+.lorem-section .lorem-inner .lorem-1 h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-bold;
+	margin-top: 30%;
+	text-align: center;
+	
+}
+
+.lorem-section .lorem-inner .lorem-2{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../images/lorem-bg-2-extra.png) no-repeat;
+	background-size: cover;
+}
+
+.lorem-section .lorem-inner .lorem-2 h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-bold;
+	margin-top: 30%;
+	text-align: center;
+	
+}
+
+.lorem-section .lorem-inner .lorem-3{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../images/lorem-bg-3.png) no-repeat;
+	background-size: cover;
+}
+
+.lorem-section .lorem-inner .lorem-3 h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-bold;
+	margin-top: 30%;
+	text-align: center;
+	
+}
+
+.lorem-section .lorem-inner .lorem-4{
+	width: 25%;
+	height: 200px;
+	float: left;
+	background: url(../images/lorem-bg-4.png) no-repeat;
+	background-size: cover;
+}
+
+.lorem-section .lorem-inner .lorem-4 h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-bold;
+	margin-top: 30%;
+	text-align: center;
+	
+}
+
+.lorem-section .lorem-inner .extra:hover{
+	width: 25%;
+	height: 200px;
+	background: #3aa4ca;
+	opacity: 10;
+}
+
+/* =============================================
+			  End lorem Section                 
+================================================= */
+
+/* =============================================
+			  Start team Section                 
+================================================= */
+
+.team-title-section{
+	width: 100%;
+	text-align: left;
+}
+
+.team-title-section .team-title{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.team-title-section .team-title h1{
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #000;
+	font-family: Montserrat-Bold;
+	margin-top: 50px;
+	margin-bottom:50px;	
+}
+.team-title-section .team-title span{
+	color: #2ebaee;
+}
+
+/* =======tean-title======== */
+
+.team-section{
+	width: 100%;
+}
+
+.team-section .team{
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.team-section .team .team-inner{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.team-section .team .team-inner img{
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.team-section .team .team-inner h3{
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 700;
+		color: #000;
+		font-family: Montserrat-bold;
+		text-align: center;
+		margin-bottom: 10px;
+		
+}
+
+.team-section .team .team-inner p{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #878787;
+	text-align: center;
+	font-family: Montserrat-Regular;
+	margin-bottom: 12px;
+	
+}
+
+.team-section .team .team-inner .banner-btn{
+	padding: 10px 20px;
+	font-size: 10px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	text-align: center;
+	background: #2ebaee;
+	border-radius: 20px;
+	
+		
+}
+
+.team-section .team .team-inner .banner-btn:hover{
+	border: 1px solid #2ebaee;
+	background: transparent;
+	color: #2ebaee;
+}
+
+/* =============================================
+			  End team Section                 
+================================================= */
+
+/* =============================================
+			  Start contact-section                
+================================================= */
+
+.contact-section{
+	width: 100%;
+	padding: 70px 0px;
+	background: url(../images/footer-bg.png) no-repeat;
+	background-size: cover;
+}
+
+.contact-section .contact{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contact .contact-left{
+	width: 50%;
+	float: left;
+}
+
+.contact .contact-left h1{
+	font-size: 46px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-Bold;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.contact .contact-left p{
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #878787;
+	font-family: Montserrat-Regular;
+	margin-bottom: 15px;
+}
+
+.contact .contact-left h4{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #878787;
+	font-family: Montserrat-Regular;
+	margin-bottom: 50px;
+}
+
+.contact .contact-left h4 span{
+	color: #2ebaee;
+}
+
+.contact .contact-left .social-icon{}
+
+.contact .contact-left .social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #2ebaee;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+	margin-right: 12px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+.contact .contact-left .social-icon i:hover{
+	background: transparent;
+	border: 1px solid #2ebaee;
+}
+.contact .contact-left .social-icon .color-1{
+	background-color:#3b5998 ;
+}
+
+.contact .contact-left .social-icon .color-2{
+	background-color:#2ebaee ;
+}
+
+.contact .contact-left .social-icon .color-3{
+	background-color:#cc2127 ;
+}
+
+.contact .contact-left .social-icon .color-4{
+	background-color:#46c655 ;
+}
+
+.contact .contact-left .social-icon .color-5{
+	background-color:#cc2127 ;
+}
+
+/* ======= .contact-right==========*/
+
+.contact .contact-right{
+	width: 50%;
+	float: left;
+}
+.contact .contact-right form input::placeholder{
+	color: #fff;
+	font-size: 12px;
+	font-family: Montserrat-Regular;
+}
+
+form .text input {
+    width:100%;
+    padding: 8px 0px 8px 10px;
+	margin:5px 0px;
+	color:#fff;
+    background:transparent;
+    border:1px solid #878787;
+	border-radius:2px;
+
+}
+form .email input{
+    width:100%;
+    padding: 8px 0px 8px 10px;
+	margin:5px 0px;
+	color:#fff;
+    background:transparent;
+    border:1px solid #878787;
+	border-radius:2px;
+	
+}
+form .text-m input{
+	width:100%;
+    padding: 8px 0px 90px 10px;
+	margin:5px 0px;
+	color:#fff;
+    background:transparent;
+    border:1px solid #878787;
+    border-radius:2px;
+}
+
+form button{
+    display:inline-block;
+    margin:10px 0px 0px 236px;
+    padding:8px 35px;
+    color:#fff;
+    font-weight:700;
+    border:1px solid #2ebaee;
+    border-radius:2px;
+    background:transparent;
+    transition:1s;
+}
+form .btn-bg:hover{
+    background:#2ebaee;
+    transition: 1s;
+}
+
+form input[type="checkbox"] {
+    color:#fff;
+}
+form p{
+    
+    display:inline-block;
+    margin-left: 5px;
+    color:#2ebaee;
+    font-size: 15px;
+    font-weight:300;
+}
+form .buttn{
+    padding-bottom: 40px;
+}
+/* =============================================
+			  End contact-section                
+================================================= */
+
+
+/* =============================================
+			  Start-footer-section                
+================================================= */
+
+.footer-section{
+	width: 100%;
+	padding:50px 0px;
+	background: #000;
+}
+
+.footer-section .footer{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer-section .footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+	font-family: Montserrat-Regular;
+	margin-bottom: 10px;
+}
+
+/* =============================================
+			  End footer-section                
+================================================= */
